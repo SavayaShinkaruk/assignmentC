@@ -1,0 +1,289 @@
+/* Start of CSS CODE for mock header */
+@import url("https://fonts.googleapis.com/css?family=Kalam");
+@import url("https://fonts.googleapis.com/css?family=Kalam");
+.header {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #FFF0F5;
+  padding: 10px 10px;
+}
+
+/* Style header */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 20px;
+  border-radius: 10px;
+}
+
+/* Style the logo link */
+.header a.logo {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #FFF0F5;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: PaleVioletRed;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* END of CSS CODE for mock header */
+/* START of CSS CODE for SVG DRAW TRANSITION */
+text {
+  font-family: 'Kalam', cursive;
+}
+
+.container1 {
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  min-height: 10vh;
+}
+.container1 svg {
+  max-width: 20rem;
+  width: 50%;
+  height: 15%;
+  fill: none;
+  stroke: PaleVioletRed;
+  stroke-width: 4;
+}
+.container1 svg tspan > tspan {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: -1500;
+}
+.container1 svg tspan > tspan:nth-of-type(1) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(2) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(3) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(4) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(5) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(6) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(7) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(8) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(9) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(10) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(11) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(12) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(13) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(14) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container1 svg tspan > tspan:nth-of-type(15) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+
+@-webkit-keyframes draw {
+  50% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes draw {
+  50% {
+    stroke-dashoffset: 0;
+  }
+}
+/* END of CSS CODE for SVG DRAW TRANSITION */
+/* START of image CSS CODE */
+.main-content img {
+  float: left;
+  padding: 0 20px 20px 0;
+}
+
+/* END of image CSS CODE */
+/* START of CSS CODE for Transition HTML */
+#cf {
+  position: relative;
+  height: 213px;
+  width: 1px;
+  left: 720px;
+}
+
+#cf img {
+  position: absolute;
+  left: 0;
+  transition: opacity 1s ease-in-out;
+  width: auto;
+  height: 270px;
+}
+
+#cf img.top:hover {
+  opacity: 0;
+}
+
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/* END of CSS CODE for Transition HTML */
+.container {
+  background: #f9f9f9;
+}
+
+.flex-column {
+  max-width: 250px;
+}
+
+img {
+  margin: auto;
+}
+
+.scale {
+  -webkit-transform: scaleY(1.05);
+          transform: scaleY(1.05);
+  padding-top: 5px;
+}
+
+/* START of CSS CODE for SVG DRAW TRANSITION */
+text {
+  font-family: 'Kalam', cursive;
+}
+
+.container {
+  background-color: #ffff;
+  display: absolute;
+  position: center;
+  float: both;
+  min-height: 5vh;
+}
+.container svg {
+  display: center;
+  position: center;
+  max-width: auto;
+  width: 100%;
+  height: auto;
+  fill: none;
+  stroke: black;
+  stroke-width: 2;
+}
+.container svg tspan > tspan {
+  stroke-dasharray: 1400;
+  stroke-dashoffset: -1400;
+}
+.container svg tspan > tspan:nth-of-type(1) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(2) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(3) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(4) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(5) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(6) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(7) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(8) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(9) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(10) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(11) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(12) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(13) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(14) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+.container svg tspan > tspan:nth-of-type(15) {
+  -webkit-animation: draw 5000ms linear 1s infinite alternate;
+          animation: draw 5000ms linear 1s infinite alternate;
+}
+
+@keyframes draw {
+  50% {
+    stroke-dashoffset: 0;
+  }
+}
+/* END of CSS CODE for SVG DRAW TRANSITION */
